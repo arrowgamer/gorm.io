@@ -5,7 +5,7 @@ layout: page
 
 ## Delete Record
 
-**WARNING** When delete a record, you need to ensure it's primary field has value, and GORM will use the primary key to delete the record, if primary field's blank, GORM will delete all records for the model
+**WARNING** When delete a record, you need to ensure its primary field has value, and GORM will use the primary key to delete the record, if primary field's blank, GORM will delete all records for the model
 
 ```go
 // Delete an existing record
